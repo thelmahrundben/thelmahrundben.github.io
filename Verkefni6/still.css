@@ -1,0 +1,101 @@
+body, section{
+    margin: 0px;
+  
+}
+
+
+.A{
+    background: blue;
+    height: 100vh;
+    display: flex;
+}
+
+.B{
+    background: salmon;
+    height: 100vh;
+}
+
+.F{
+    background: green;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.25;
+}
+.H{
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 20px;
+}
+
+section{
+    background: blue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hringur{
+    height: 30em;
+    width: 30em;
+    background: radial-gradient( red, tomato);
+    border-radius: 50%;
+    margin: auto;
+    opacity: 0,5;
+
+}
+.takki {
+    position:absolute;
+    margin-top:100px;
+    background: blue;
+    
+}
+
+.tommi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: auto;
+    position: absolute;
+}
+
+.midja{
+    width: 70%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.25;
+
+}
+
+.tveir{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+   
+
+}   
+
+.fjorir{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    justify-items: center;
+}
+
+.kassi{
+
+    margin: 10px;
+
+    padding: 15px;
+
+     background: radial-gradient(red,salmon);
+
+}
