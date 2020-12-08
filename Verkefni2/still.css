@@ -1,0 +1,50 @@
+.listi1 li{
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    border: 3px dashed green;
+}
+
+.listi2 li{
+    display: inline;
+    margin: 1em;
+    padding: 1em;
+    border: 3px dashed blue;
+}
+
+.listi3 li{
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+    border: 3px dashed red;
+}
+
+
+
+h1, span, a{
+    border: 1px solid red; 
+}
+
+div{
+    border: 3px solid greenyellow; 
+}
+
+.bilpadding{
+padding: 20px;
+}
+
+.bilmargin{
+    margin: 20px;
+}
+
+.texti{
+    color: blue;
+}
+
+.texti2{
+    color: cornflowerblue;
+}
+
+.rammi{
+    border: 1px dotted rgb(255, 0, 212);
+}

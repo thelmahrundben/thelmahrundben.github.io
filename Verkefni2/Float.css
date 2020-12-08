@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(236, 246, 250);
+}
+
+.box{
+    border: 1px solid red;
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.Ell{
+    font-size: 32px;
+    margin: 10px;
+    float: left;
+    padding: 20px;
+}
+
+.Cat{
+    float: right;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
