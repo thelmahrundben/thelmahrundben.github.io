@@ -1,0 +1,172 @@
+header, nav, aside, article, main, footer{
+
+border: 1px dotted red;
+
+
+
+}
+
+
+
+body{
+
+    display: grid;
+
+    grid-template-areas: /*none*/
+
+    "h h h h"
+
+    "n n n n"
+
+    "hae a a v"
+
+    "f f f f";}
+
+
+
+
+
+.hlekkir{
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    align-items: center;
+
+    justify-items: center;
+
+    height: 4em;}
+
+
+
+
+
+.haus{
+
+    grid-area: h;
+
+font-style: italic;
+
+color: plum;
+
+text-align: center;
+background: blue;
+
+}
+
+
+
+.valstika{
+
+    grid-area: n;}
+
+
+
+.vinstri{
+
+    grid-area: v;
+
+padding: 10px;
+
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.adal{
+
+    grid-area: a;
+
+padding: 10px;
+
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.haegri{
+
+     grid-area: hae;
+
+    padding: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+
+
+.fotur{
+
+    grid-area: f;
+
+    padding: 5px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    align-items: center;
+
+    justify-items: center;
+
+    height: 4em;}
+
+}
+
+
+
+.text{
+
+    line-height: 20px;
+
+}
+
+
+
+.body2 {
+
+    display: grid;
+
+    grid-template-areas: /*none*/
+
+    "n n n n"
+
+    "h h h h"
+
+    "a a v hae"
+
+    "f f f f";
+
+}
+
+
+
+.body3{
+
+    display: grid;
+
+    grid-template-areas: /*none*/
+
+    "h h h n"
+
+    "v hae a a"
+
+    "f f f f";
+
+}
+
+
+
+.kassi{
+
+    margin: 10px;
+
+    padding: 10px;
+
+    border: 1px solid black;
+
+}
